@@ -92,6 +92,7 @@ let objeto = {
 };
 
 console.log(objeto);
+
 localStorage.setItem("objeto", JSON.stringify(objeto));
 let nuevo_objeto = localStorage.getItem("objeto");
 console.log(JSON.parse(nuevo_objeto));
